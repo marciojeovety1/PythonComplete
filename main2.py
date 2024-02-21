@@ -1,40 +1,26 @@
-#dictionaries - a dictionary is a collection of key-value pairs.
+#conditionals - are set of rules that someone can implement to their code
+#example
+#if and else, else if = elif
 
-my_dictionaries = {'name': 'Marcio', 'country': 'Angola'}
-print(my_dictionaries)
+age = int(input('What\'s your age? '))
 
-#adding something to the dictionarie
-my_dictionaries['car'] = 'Range Rover'
-print(my_dictionaries)
+if age < 18:
+    print('You\'re not allowed to enter to this event. Grow.')
+    
+elif age == 18:
+    print(f'You are {age}, but we need your parent\'s document permission.')
+    
+elif age > 50:
+    print(f"You are {age}, this event is not longer for your age.")
 
-#update
-my_dictionaries.update({'list': ['this a list', 2024]})
-print(my_dictionaries)
+else:
+    print(f'You are {age}, so you are welcome to this event.')
+    
+    
+names = 'Feuniria'
 
-#edit
-my_dictionaries['country'] = 'Portugal'
-print(my_dictionaries)
-
-my_dictionaries['car'] = 'Lamborghini'
-print(my_dictionaries)
-
-
-#delete
-
-del my_dictionaries['list']
-print(my_dictionaries)
-
-del my_dictionaries['car']
-print(my_dictionaries)
-
-
-popped_dictionary = my_dictionaries.pop('country')
-print(popped_dictionary)
-print(my_dictionaries)
-print(popped_dictionary)
-
-duplicated_dictionary = {'name': 'Marcio', 'name': 'Feuniria'}
-print(duplicated_dictionary)
-print(type(my_dictionaries))
-print(len(my_dictionaries))
-print(my_dictionaries)
+if names != 'Feuniria':
+    print(f'No you are not Feuniria, you are {names}, stop lying to me, I will bite you.')
+    
+else:
+    print(f"Welcome {names}, Python loves you so much.")

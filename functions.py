@@ -1,7 +1,17 @@
-def add_numbers(a, b):
+"""
+def hello(name):
+    print(name)
+    print("Hello, there!")
+    print("Hi there")
+
+
+print(name)
+hello('Marcio')
+hello("Alice")
+"""
+def add_numbers(a,b):
     sum = a + b
-    print(sum)
-    
-add_numbers(5, 2)
-add_numbers(100, 50)
-add_numbers(8, 10.5)
+    return sum
+
+print(add_numbers(2,2))
+print(add_numbers("Marcio ","Jeovety"))

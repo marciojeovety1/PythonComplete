@@ -2,8 +2,7 @@ my_name = input("Please enter your name: ")
 
 print(my_name)
 
-my_favorite_num = input("Please enter your favorite number: ")
+my_favorite_num = int(input("What is your favorite number: "))
+print(type(my_favorite_num))
 
-print(type(int(my_favorite_num)))
-
-print(my_name.title())
+print(my_name.upper())

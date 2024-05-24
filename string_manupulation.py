@@ -11,3 +11,8 @@ print(id(long_str))
 print(single_quote_str)
 
 print(split_str)
+
+my_name = 'Marcio'
+print(id(my_name))
+
+print(id(my_name.upper()))

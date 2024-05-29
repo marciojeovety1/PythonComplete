@@ -18,3 +18,4 @@ print(screen_res)
 
 screen_data = screen_res + screen_info
 print(screen_data)
+print(len(screen_data))
